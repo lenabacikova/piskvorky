@@ -1,0 +1,51 @@
+
+
+body {
+  background-image: -webkit-repeating-linear-gradient(#6660ae, #f9c4d8) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin: 0;
+
+
+} 
+
+.hlavni_kontejner {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: #283e50;
+
+
+}
+
+.foto {
+  width: 350px ;
+  height: 220px;
+  border-radius: 5px 5px 0 0;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.nadpis {
+  font-family: 'Lobster', cursive;
+  font-size: 38px;
+}
+
+.popis {
+  display: block;
+}
+
+
+
+
