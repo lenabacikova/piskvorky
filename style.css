@@ -1,8 +1,7 @@
 body {
   background-image: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,4 +69,47 @@ h1 {
 
 .zacit:hover {
   background-color: #0090e9;
+}
+
+/* ============================================================================= */
+/* RESPONSE VERSION / mobile */
+
+
+
+.kontejner_mobile {
+  background-color: #283e50;
+  width: 360px;
+  border-radius: 7px 7px 0 0;
+  margin: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.pravidla_nadpis {
+  color:white;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 15px;
+
+}
+
+.pravidla_text {
+  color: white;
+  line-height: 1.2;
+  margin: 10px;
+  padding: 0 40px;
+
+}
+
+.pic {
+  width: 300px;
+  margin: 10px 30px;
+}
+
+.text_under {
+  color: white;
+  text-align: center;
+  margin: 5px 30px 30px 30px;
+  
 }
