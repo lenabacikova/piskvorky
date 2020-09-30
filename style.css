@@ -43,16 +43,20 @@ h1 {
 .odkazy {
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 .pravidla,
 .zacit {
   color: white;
   text-decoration: none;
+
 }
 
 .pravidla {
   background-color: #1fcca4;
+
+
 }
 
 .pravidla:hover {
