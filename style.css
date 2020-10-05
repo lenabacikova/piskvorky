@@ -1,61 +1,63 @@
-body {
-  background-image: linear-gradient(#615dad, #ffc8da);
+
+.index {
+  min-height: 100vh;
   background-repeat: no-repeat;
-  height: auto;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(#615dad, #ffc8da);
+  margin: auto;
+
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: auto;
 }
 
 .kontejner {
   background-color: #283e50;
   width: 360px;
-  border-radius: 7px 7px 0 0;
-  text-align: center;
+  border-radius: 8px 8px 0 0;
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
   color: white;
+  font-size: 44px;
+  margin: 30px;
   text-align: center;
-}
+  font-family: 'Lobster', cursive;
 
-.foto {
-  width: 100%;
-  border-radius: 7px 7px 0 0;
+  
 }
 
 .text {
   color: white;
-  line-height: 1.5;
-  padding: 0px 10px;
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  line-height: 1.2;
 }
 
 .button {
   display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
   width: 100%;
   height: auto;
-  padding: 10px 0;
-}
+  padding: 20px 0;
 
-.odkazy {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-.pravidla,
-.zacit {
-  color: white;
-  text-decoration: none;
 
 }
 
 .pravidla {
   background-color: #1fcca4;
-
-
 }
 
 .pravidla:hover {
@@ -64,52 +66,95 @@ h1 {
 
 .zacit {
   background-color: #0197f6;
-  border-top: 1px solid rgb(65, 65, 65);
+  margin-top: 1px;
 }
 
 .zacit:hover {
   background-color: #0090e9;
 }
 
-/* ============================================================================= */
-/* RESPONSE VERSION / mobile */
+/* =================PRAVIDLA+++++++++++++++ */
 
 
-
-.kontejner_mobile {
-  background-color: #283e50;
-  width: 360px;
-  border-radius: 7px 7px 0 0;
-  margin: 40px 0 0 0;
+.rulesDescription {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(#615dad, #ffc8da);
   display: flex;
-  flex-direction: column;
-
-}
-
-.pravidla_nadpis {
-  color:white;
-  text-align: center;
-  font-size: 3em;
-  padding-top: 15px;
-
-}
-
-.pravidla_text {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   color: white;
-  line-height: 1.2;
-  margin: 10px;
-  padding: 0 40px;
+}
+
+.kontejnerRules {
+  background-color: #283e50;
+  max-width: 360px;
+  border-radius: 8px 8px 0 0;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rulesPicture{
+  width: 100%;
+  background-position: center;
+}
+
+.circle,
+.cross {
+  height: 1em;
+  width: 1em;
+  filter: invert(100%);
 
 }
 
-.pic {
-  width: 300px;
-  margin: 10px 30px;
+figurecaption {
+  font-style: italic;
+  font-size: 13px;
 }
 
-.text_under {
-  color: white;
+figure {
   text-align: center;
-  margin: 5px 30px 30px 30px;
-  
+  padding-top: 5px;
 }
+
+
+
+ol {
+  padding-right: 10px;
+}
+
+ol>li {
+  margin-top: 10px;
+}
+
+
+/* 
+=========WIDE SCREEN+++++++++++++++++++ */
+
+
+@media screen and (min-width: 600px) {
+
+
+  .kontejnerRules {
+    max-width: 600px;
+  }
+
+  figurecaption {
+    font-size: 14px;
+  }
+
+  .picture {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .pictureRules {
+    flex-basis: 49%;
+  }
+
+  ol {
+    padding-right: 30px;
+  }
+}
+
