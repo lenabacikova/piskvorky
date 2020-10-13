@@ -73,7 +73,7 @@ h1 {
   background-color: #0090e9;
 }
 
-/* =================PRAVIDLA+++++++++++++++ */
+/* ================= PRAVIDLA +++++++++++++++ */
 
 
 .rulesDescription {
@@ -130,7 +130,7 @@ ol>li {
 
 
 /* 
-=========WIDE SCREEN+++++++++++++++++++ */
+========= WIDE SCREEN +++++++++++++++++++ */
 
 
 @media screen and (min-width: 600px) {
@@ -157,4 +157,61 @@ ol>li {
     padding-right: 30px;
   }
 }
+
+/* ================= HRA +++++++++++++++ */
+
+.index--hra {
+  max-width: 80vmin;
+  display: block;
+
+}
+
+.player_panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  width: 100%;
+  padding-bottom: 10px;
+
+}
+
+.player {
+  color: white;
+  text-transform: uppercase;
+  font-size:1.5em ;
+  font-weight: 900;
+}
+
+
+
+.btn {
+  border-radius: 10%;
+  margin: 3px;
+  height: 35px;
+ 
+ 
+
+}
+
+.btn_home {
+  background-color: #1fcca4; 
+  border: none;
+}
+
+.btn_home:hover {
+  background-color: #1cbb96;
+}
+
+.btn_restart {
+  background-color: #0197f6;
+  border: none;
+}
+
+.btn_restart:hover {
+  background-color: #0090e9;
+}
+
+
 
