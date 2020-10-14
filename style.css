@@ -1,4 +1,3 @@
-
 .index {
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -9,7 +8,6 @@
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(#615dad, #ffc8da);
   margin: auto;
-
 }
 
 .image {
@@ -30,8 +28,6 @@ h1 {
   margin: 30px;
   text-align: center;
   font-family: 'Lobster', cursive;
-
-  
 }
 
 .text {
@@ -52,8 +48,6 @@ h1 {
   width: 100%;
   height: auto;
   padding: 20px 0;
-
-
 }
 
 .pravidla {
@@ -75,7 +69,6 @@ h1 {
 
 /* ================= PRAVIDLA +++++++++++++++ */
 
-
 .rulesDescription {
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(#615dad, #ffc8da);
@@ -95,7 +88,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-.rulesPicture{
+.rulesPicture {
   width: 100%;
   background-position: center;
 }
@@ -105,7 +98,6 @@ h1 {
   height: 1em;
   width: 1em;
   filter: invert(100%);
-
 }
 
 figurecaption {
@@ -118,24 +110,18 @@ figure {
   padding-top: 5px;
 }
 
-
-
 ol {
   padding-right: 10px;
 }
 
-ol>li {
+ol > li {
   margin-top: 10px;
 }
-
 
 /* 
 ========= WIDE SCREEN +++++++++++++++++++ */
 
-
 @media screen and (min-width: 600px) {
-
-
   .kontejnerRules {
     max-width: 600px;
   }
@@ -164,7 +150,6 @@ ol>li {
   max-width: 80vmin;
   display: block;
   margin-bottom: 40px;
-
 }
 
 .player_panel {
@@ -174,14 +159,12 @@ ol>li {
   justify-content: space-between;
   width: 100%;
   padding-bottom: 10px;
- 
-
 }
 
 .player {
   color: white;
   text-transform: uppercase;
-  font-size:1.5em ;
+  font-size: 1.5em;
   font-weight: 900;
 }
 
@@ -200,11 +183,10 @@ ol>li {
   border-radius: 10%;
   margin: 5px;
   height: 35px;
-
 }
 
 .btn_home {
-  background-color: #1fcca4; 
+  background-color: #1fcca4;
   padding: 8px;
   border: none;
 }
@@ -220,16 +202,16 @@ ol>li {
   border: none;
 }
 
-
 .btn_restart:hover,
 .btn_restart:focus {
   background-color: #0090e9;
 }
 
-.game_field{
+.game_field {
   display: flex;
   flex-wrap: wrap;
   max-width: 80vmin;
+  background-image: linear-gradient(#615dad, #ffc8da);
 }
 
 .field {
@@ -239,13 +221,10 @@ ol>li {
   height: 8vmin;
   opacity: 0.5;
   border: 1px solid black;
-  color: lightgray;
   opacity: 0.4;
-
 }
 
 .field:hover,
 .field:focus {
   opacity: 0.6;
 }
-
